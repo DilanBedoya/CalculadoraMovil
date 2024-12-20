@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         buttonSuma.setOnClickListener{
             val nro1 = et1.text.toString().toInt()
             val nro2 = et2.text.toString().toInt()
-            val suma = nro1+nro2
+            val suma = nro2+nro1
             total.text = "Suma: ${suma.toString()}";
         }
 
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         buttonMultiplicar.setOnClickListener{
             val nro1 = et1.text.toString().toInt()
             val nro2 = et2.text.toString().toInt()
-            val multiplicar = nro1 * nro2
+            val multiplicar = nro2 * nro1
             total.text = "Multiplicación: ${multiplicar.toString()}";
         }
         val buttonDividir=findViewById<Button>(R.id.btnDivision)
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
             if (nro1==0){
                 total.text = "No se puede dividir entre 0";
             }else {
-                val division = nro1 / nro2
+                val division = nro2 / nro1
                 total.text = "División: ${division.toString()}";
             }
         }
