@@ -2,6 +2,8 @@
 
 ## Integrantes 
 - Bedoya Dilan
+- Alexis Farinango
+- Lenin Gómez
 - Alex Cardenas
 - Steven Castillo
 - Kevin Cola
